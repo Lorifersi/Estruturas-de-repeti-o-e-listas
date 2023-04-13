@@ -1,3 +1,4 @@
-Notas = [["Crhistiane" [7, 8, 6, 10]], ["Lizzy"[8, 9, 10, 8]], ["Jane"[5, 6 ,7, 9]], ["Rudy"[2, 3, 5, 7]]]
-
-print (Notas [0])
+Notas = [4, 6, 8, 10]
+average = sum(Notas)/len(Notas)
+print ("Média", round(average, 2))
+print(Notas)
